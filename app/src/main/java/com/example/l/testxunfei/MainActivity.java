@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 // ①语音配置对象初始化
-                SpeechUtility.createUtility(MainActivity.this, SpeechConstant.APPID + "=5e5a183b");//将这里的578f1af7替换成自己申请得到的8位appid
+                SpeechUtility.createUtility(MainActivity.this, SpeechConstant.APPID + "=578f1af7");//将这里的578f1af7替换成自己申请得到的8位appid
 
                 // ②初始化有交互动画的语音识别器
                 iatDialog = new RecognizerDialog(MainActivity.this, mInitListener);
